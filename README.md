@@ -27,6 +27,6 @@ mysqldump -u < identifiant > -p < nom bdd > > nomdefichier.sql
 
 ex: msqldump -u root -p gestioncinema > dump.sql
 
-L'ensemnle de la bdd sera suvegarder dans le fichier dump.sql
+L'ensemble de la bdd sera sauvegardée dans le fichier dump.sql
 
 
