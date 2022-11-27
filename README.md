@@ -13,7 +13,7 @@
 - ouvrir le terminal et se placer dans le dossier ou se trouve dump.sql
 - taper la ligne de commande via un terminal : 
 
-mysql -u <identifiant> -p <nom de la table> < dump.sql
+mysql -u <<identifiant>> -p <<nom de la table>> < dump.sql
 
 ex : mysql -u root -p gestioncinema < dump.sql
 
@@ -23,7 +23,7 @@ Cela permet de restaurer la BDD
 
 taper la ligne de commande :
 
-mysqldump -u <identifiant> -p <nom bdd> > nomdefichier.sql
+mysqldump -u <<identifiant>> -p <<nom bdd>> > nomdefichier.sql
 
 ex: msqldump -u root -p gestioncinema > dump.sql
 
